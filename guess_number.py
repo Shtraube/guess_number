@@ -15,7 +15,7 @@ def main():
             print('Ваше число меньше того, что загадано.')
         elif guess > number:
             print('Ваше число больше того, что загадано.')
-        else:
+        elif guess == number:
             break
 
 main()
